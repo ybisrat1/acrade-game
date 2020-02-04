@@ -107,12 +107,12 @@ var Engine = (function(global) {
          * for that particular row of the game level.
          */
         var rowImages = [
-                'images/water-block.png',   // Top row is water
-                'images/stone-block.png',   // Row 1 of 3 of stone
-                'images/stone-block.png',   // Row 2 of 3 of stone
-                'images/stone-block.png',   // Row 3 of 3 of stone
-                'images/grass-block.png',   // Row 1 of 2 of grass
-                'images/grass-block.png'    // Row 2 of 2 of grass
+              'https://raw.githubusercontent.com/udacity/frontend-nanodegree-arcade-game/master/images/water-block.png',   // Top row is water
+              'https://rawgit.com/udacity/frontend-nanodegree-arcade-game/master/images/stone-block.png',   // Row 1 of 3 of stone
+            'https://rawgit.com/udacity/frontend-nanodegree-arcade-game/master/images/stone-block.png',   // Row 2 of 3 of stone
+              'https://rawgit.com/udacity/frontend-nanodegree-arcade-game/master/images/stone-block.png',   // Row 3 of 3 of stone
+              'https://rawgit.com/udacity/frontend-nanodegree-arcade-game/master/images/grass-block.png',   // Row 1 of 2 of grass
+              'https://rawgit.com/udacity/frontend-nanodegree-arcade-game/master/images/grass-block.png'    // Row 2 of 2 of grass
             ],
             numRows = 6,
             numCols = 5,
@@ -169,11 +169,12 @@ var Engine = (function(global) {
      * all of these images are properly loaded our game will start.
      */
     Resources.load([
-        'images/stone-block.png',
-        'images/water-block.png',
-        'images/grass-block.png',
-        'images/enemy-bug.png',
-        'images/char-boy.png'
+      'https://rawgit.com/udacity/frontend-nanodegree-arcade-game/master/images/stone-block.png',
+       'https://raw.githubusercontent.com/udacity/frontend-nanodegree-arcade-game/master/images/water-block.png',
+       'https://rawgit.com/udacity/frontend-nanodegree-arcade-game/master/images/grass-block.png',
+       'https://raw.githubusercontent.com/udacity/frontend-nanodegree-arcade-game/master/images/enemy-bug.png',
+       'https://raw.githubusercontent.com/udacity/frontend-nanodegree-arcade-game/master/images/char-boy.png',
+       'https://raw.githubusercontent.com/udacity/frontend-nanodegree-arcade-game/master/images/Rock.png'
     ]);
     Resources.onReady(init);
 
