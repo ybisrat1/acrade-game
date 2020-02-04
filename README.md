@@ -5,16 +5,20 @@
 - [Instructions](#instructions)
 - [Contributing](#contributing)
 
-## Instructions
+## Instructions to RUN:
+1.Create a git folder to house this project locally
+2.Clone git hub repositiory from  https://github.com/ybisrat1/acrade-game.git(HTML/CSS/JS..).
+3. Once index.html file is loaded the game begins.
+4. No additional software is needed
 
-Use this [rubric](https://review.udacity.com/#!/rubrics/15/view) for self-checking your submission.
 
-Make sure the functions you write are **object-oriented** - either class functions (like `Player` and `Enemy`) or class prototype functions such as `Enemy.prototype.checkCollisions`. Also make sure that the keyword `this` is used appropriately within your class and class prototype functions to refer to the object the function is called upon.
+contributions:
+ Udacity existing code base.
 
-Your **README.md** file should be updated with instructions on both how to 1. Run and 2. Play your arcade game.
 
-For detailed instructions on how to get started, check out this [guide](https://docs.google.com/document/d/1v01aScPjSWCCWQLIpFqvg3-vXLH2e8_SZQKC8jNO0Dc/pub?embedded=true).
-
-## Contributing
-
-This repository is the starter code for _all_ Udacity students. Therefore, we most likely will not accept pull requests.
+ 
+how to play the game:
+Objective: to get the player icon across the stone road into the water 5 times without touching any bugs.
+1. once the game starts the user can control the playe icon and move (up,down, left & right)
+2.move the player until it reaches the water while trying to avoid the bugs (bugs will reset your score to 0 if touched).
+3. reach the water 5 times without being touch by a bug and you will win the grand prize!!!

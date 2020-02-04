@@ -174,7 +174,10 @@ var Engine = (function(global) {
        'https://rawgit.com/udacity/frontend-nanodegree-arcade-game/master/images/grass-block.png',
        'https://raw.githubusercontent.com/udacity/frontend-nanodegree-arcade-game/master/images/enemy-bug.png',
        'https://raw.githubusercontent.com/udacity/frontend-nanodegree-arcade-game/master/images/char-boy.png',
-       'https://raw.githubusercontent.com/udacity/frontend-nanodegree-arcade-game/master/images/Rock.png'
+       'https://raw.githubusercontent.com/udacity/frontend-nanodegree-arcade-game/master/images/Rock.png',
+       //'https://raw.github.com/ybisrat1/acrade-game/blob/master/images/char-princess-girl.png',
+       'images/char-princess-girl.png',
+       'images/b.jpg'
     ]);
     Resources.onReady(init);
 
